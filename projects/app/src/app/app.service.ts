@@ -3,9 +3,9 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class MyLibService {
+export class AppService {
 
-  private text: any = "my-lib works!";
+  private text: any = "AppService aki";
   getText(){
     return this.text;
   }
